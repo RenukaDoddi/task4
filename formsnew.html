@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TSRTC General Bus Pass Application</title>
+</head>
+<body>
+  <h2 style="text-align:center;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+  <h3 style="text-align:center;">GENERAL BUS PASS APPLICATION</h3>
+  <form>
+    <fieldset>
+      <legend><strong>Applicant Details</Details></strong></legend>
+      Name: <input type="text" maxlength="20" required><br><br>
+      Date of Birth: <input type="date" required><br><br>
+      Age As On: 
+      Year <input type="number" min="0"> 
+      Month <input type="number" min="0" max="12"> 
+      Day <input type="number" min="0" max="31"><br><br>
+      Gender:
+      <input type="radio" name="gender" value="Female"> Female
+      <input type="radio" name="gender" value="Male"> Male<br><br>
+      Father's / Guardian's Name: <input type="text"><br><br>
+      Aadhaar No: <input type="text"><br> <br>
+      WhatsApp No: <input type="text"><br><br>
+      Email ID: <input type="email"><br><br>
+      Photo: <input type="file"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Residential Address Details</strong></legend>
+      Applicant's Address: <input type="text" maxlength="20" required><br><br>
+      District: 
+      <select>
+        <option>VISHAKAPATNAM</option>
+      </select><br><br>
+      Mandal: 
+      <select>
+        <option>MUNAGAPAKA</option>
+      </select><br><br>
+      Village: 
+      <select>
+        <option>CHUCHUKONDA</option>
+      </select><br><br>
+      Pincode: <input type="text"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Pass Type Details</strong></legend>
+      City:
+      <select>
+        <option>Hyderabad</option>
+      </select><br><br>
+      Pass Type:
+      <select>
+        <option>--Select--</option>
+      </select><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+      Payment Mode:
+      <select>
+        <option>Select Payment Mode</option>
+      </select><br><br>
+      Pass Delivery Mode:
+      <select>
+        <option>Select Pass Delivery Mode</option>
+      </select><br><br>
+      Center at which you want to Collect Pass:
+      <select>
+        <option>--Select--</option>
+      </select><br><br>
+    </fieldset>
+
+    <label>Enter Captcha: <strong>zSApy7</strong></label><br>
+    <input type="text" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
